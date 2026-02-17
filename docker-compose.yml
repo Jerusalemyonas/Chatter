@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+  # Database
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: chatdb
+    ports:
+      - "5431:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d chatdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # Backend API
+  backend:
+    build: ./backend
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: "postgresql://user:password@postgres:5432/chatdb"
+      PORT: "3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # Frontend UI
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    stdin_open: true
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
