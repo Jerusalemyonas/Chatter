@@ -1,4 +1,4 @@
-Real-Time Messaging Platform (WP7)
+**Real-Time Messaging Platform (WP7)**
 
 A high-performance, containerized instant messaging application built for the **Web Programming Project**. This platform features a premium glassmorphic UI, real-time communication, and industry-standard security.
 
@@ -28,10 +28,6 @@ Developed by: Eyerusalem Yonas Lemma
 
 ---
 
-# Quick Start (The "One-Command" Run)
-
-This project is fully automated. You don't need to install Node.js or PostgreSQL on your host machine. You only need **Docker**.
-
 # 1. Clone the repository
 
 ```bash
@@ -60,9 +56,7 @@ The containers will handle the following automatically:
 
 ---
 
-# The "Security Reveal" (For Presentation)
-
-To impress your professor with the encryption logic, show them the database while you have an active chat:
+# The "Security Reveal"
 
 1.  Open the app and send a message: `"Hello Professor, this is encrypted!"`
 2.  Open your terminal and run:
