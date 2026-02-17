@@ -1,12 +1,12 @@
-# 🚀 Real-Time Messaging Platform (WP7)
+Real-Time Messaging Platform (WP7)
 
 A high-performance, containerized instant messaging application built for the **Web Programming Project**. This platform features a premium glassmorphic UI, real-time communication, and industry-standard security.
 
-**Developed by:** Jerusalem Lema
+Developed by: Eyerusalem Yonas Lemma
 
 ---
 
-## ✨ Features
+# Features
 
 - **Premium Glassmorphic UI**: A stunning, responsive interface designed with React and Vanilla CSS.
 - **AES-256 Symmetric Encryption**: Client-side encryption ensures that messages are stored as gibberish in the database, providing true user privacy.
@@ -19,7 +19,7 @@ A high-performance, containerized instant messaging application built for the **
 
 ---
 
-## 🛠️ Tech Stack
+# Tech Stack
 
 - **Frontend**: React (Vite), Lucide Icons, Crypto-JS (for encryption), Date-fns.
 - **Backend**: Node.js, Express, Socket.io, TypeScript.
@@ -28,24 +28,24 @@ A high-performance, containerized instant messaging application built for the **
 
 ---
 
-## ⚡ Quick Start (The "One-Command" Run)
+# Quick Start (The "One-Command" Run)
 
 This project is fully automated. You don't need to install Node.js or PostgreSQL on your host machine. You only need **Docker**.
 
-### 1. Clone the repository
+# 1. Clone the repository
 
 ```bash
 git clone https://github.com/Fikresilase/chatter.git
 cd chatter
 ```
 
-### 2. Run with Docker
+# 2. Run with Docker
 
 ```bash
 docker-compose up -d --build
 ```
 
-### 3. Access the Application
+# 3. Access the Application
 
 - **Frontend**: [http://localhost:5173](http://localhost:5173)
 - **Backend**: [http://localhost:3000](http://localhost:3000)
@@ -60,7 +60,7 @@ The containers will handle the following automatically:
 
 ---
 
-## 🔐 The "Security Reveal" (For Presentation)
+# The "Security Reveal" (For Presentation)
 
 To impress your professor with the encryption logic, show them the database while you have an active chat:
 
@@ -73,7 +73,7 @@ To impress your professor with the encryption logic, show them the database whil
 
 ---
 
-## 📂 Project Structure
+# Project Structure
 
 ```text
 ├── backend/
@@ -90,7 +90,7 @@ To impress your professor with the encryption logic, show them the database whil
 
 ---
 
-## 📜 Authorship
+# Authorship
 
-**Jerusalem Lema**  
-_Web Programming Project - 2026_
+**Eyerusalem Yonas**  
+Web Programming Project - 2026_
