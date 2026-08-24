@@ -31,7 +31,7 @@ Developed by: Eyerusalem Yonas Lemma
 # 1. Clone the repository
 
 ```bash
-git clone https://github.com/Fikresilase/chatter.git
+git clone https://github.com/Jerusalemyonas/Chatter.git
 cd chatter
 ```
 
