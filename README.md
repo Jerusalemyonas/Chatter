@@ -43,9 +43,9 @@ docker-compose up -d --build
 
 # 3. Access the Application
 
-- **Frontend**: [http://localhost:5173](http://localhost:5173)
+- **Frontend**: [http://localhost:8080]((http://localhost:8080)
 - **Backend**: [http://localhost:3000](http://localhost:3000)
-- **PostgreSQL**: Maps to port `5431` on your host.
+- **PostgreSQL**: Maps to port `8080` on your host.
 
 The containers will handle the following automatically:
 
